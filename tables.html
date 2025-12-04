@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables- HTML</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 2rem 0;
+        font-size: 1rem;
+        text-align: left;
+      }
+
+      thead {
+        background-color: #e23744; /* Zomato red */
+        color: white;
+      }
+
+      th,
+      td {
+        padding: 1rem;
+        border: 1px solid #ddd;
+      }
+
+      tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+
+      tbody tr:hover {
+        background-color: #ffe6e6;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tables in HTML</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Role</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Tanaya</td>
+          <td>Software Developer</td>
+          <td>$7000</td>
+        </tr>
+        <tr>
+          <td>Viraj</td>
+          <td>AIML Engineer</td>
+          <td>$8000</td>
+        </tr>
+        <tr>
+          <td>Renuka</td>
+          <td>AI Engineer</td>
+          <td>$1000</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
